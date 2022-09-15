@@ -77,6 +77,7 @@ joeBob.clothes[1]["pocket contents"][1].incomingCall()
 
 // the "type" of the last object in the clothes array
 console.log(joeBob.clothes[2].type)
+console.table(joeBob.clothes)
 
 // print all the type of clothes joe bob has
 for (let i = 0; i < joeBob.clothes.length; i++) {
@@ -88,3 +89,4 @@ let clothesType = joeBob.clothes.map((items) => {
     return items.type;
 });
 console.log(clothesType);
+
